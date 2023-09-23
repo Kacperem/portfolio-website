@@ -27,7 +27,7 @@ export default function About() {
         tortor dignissim convallis aenean. Nibh ipsum consequat nisl vel pretium
         lectus quam id leo. Massa sed elementum tempus egestas sed.
       </p>
-      <p>
+      <p className="mb-3">
         A arcu cursus vitae congue mauris rhoncus. Faucibus turpis in eu mi
         bibendum. Praesent tristique magna sit amet purus gravida quis blandit
         turpis. Vel turpis nunc eget lorem dolor sed viverra ipsum. Tellus

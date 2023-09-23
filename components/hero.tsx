@@ -33,7 +33,7 @@ export default function Hero() {
           </motion.div>
 
           <motion.span
-            className="absolute bottom-8 right-7 text-2xl"
+            className="absolute bottom-8 right-8 text-2xl"
             initial={{ opacity: 0, x: 1000 }}
             animate={{ opacity: 1, x: 1 }}
             transition={{
@@ -41,7 +41,7 @@ export default function Hero() {
               delay: 0.5,
             }}
           >
-            👀
+            🕶
           </motion.span>
         </div>
       </div>
