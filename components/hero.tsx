@@ -46,7 +46,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2x1 font-medium leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 1 }}
@@ -57,7 +57,7 @@ export default function Hero() {
         <span className="font-bold"> 1 year of experience in IT.</span> I enjoy
         coding apps in
         <span className="font-bold"> React.</span>
-      </motion.p>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
