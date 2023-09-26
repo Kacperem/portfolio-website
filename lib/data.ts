@@ -24,3 +24,15 @@ export const links = [
       hash: "#contact",
     },
   ] as const;
+
+  export const skillsData = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind",
+    "Framer Motion",
+    "Git"
+  ] as const;

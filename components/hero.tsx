@@ -71,18 +71,32 @@ export default function Hero() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-95 transition"
         >
-          Contract me here <BsArrowRight className="opacity-75 group-hover:translate-x-1.5 transition"/>
+          Contact me here{" "}
+          <BsArrowRight className="opacity-75 group-hover:translate-x-1.5 transition" />
         </Link>
 
-        <a className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:bg-white-600 active:scale-95 transition border border-black/20" href="/CV.pdf" download>
-          Download CV <HiDownload className="opacity-60 group-hover:translate-x-1 transition" />{" "}
+        <a
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:bg-white-600 active:scale-95 transition border border-black/20"
+          href="/CV.pdf"
+          download
+        >
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-x-1 transition" />{" "}
         </a>
 
-        <a className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition border border-black/20" href="https://linkedin.com" target="_blank">
+        <a
+          className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition border border-black/20"
+          href="https://linkedin.com"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
 
-        <a className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition border border-black/20" href="https://github.com" target="_blank">
+        <a
+          className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition border border-black/20"
+          href="https://github.com"
+          target="_blank"
+        >
           <FaGithubSquare />
         </a>
       </motion.div>
