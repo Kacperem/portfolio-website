@@ -23,7 +23,7 @@ export default function Hero() {
           >
             <Image
               src="https://images.unsplash.com/photo-1533514114760-4389f572ae26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwcmF0JTVDfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60"
-              alt="Temporary image"
+              alt="Temporary Avatar"
               width="192"
               height="192"
               quality="95"
