@@ -14,13 +14,13 @@ export default function Hero() {
   const { ref, inView } = useInView({
     threshold: 0.4
   });
-  const { setActiveSection } = useActiveSectionContext();
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
   useEffect(() => {
-    if (inView) {
+    if (inView  && Date.now() - timeOfLastClick > 1000) {
       setActiveSection("Home");
     }
-  }, [inView, setActiveSection]);
+  }, [inView, setActiveSection, timeOfLastClick]);
   
   return (
     <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
@@ -64,7 +64,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 1 }}
       >
-        Hello, I'm Kacper. I'am a{" "}
+        Hello, I'm Kacper. I am a{" "}
         <span className="font-bold">front-end developer </span>
         with
         <span className="font-bold"> 1 year of experience in IT.</span> I enjoy
