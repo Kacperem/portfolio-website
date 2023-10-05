@@ -89,7 +89,7 @@ export default function Hero() {
         </Link>
 
         <a
-          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:bg-white-600 active:scale-95 transition borderBlack"
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:bg-white-600 active:scale-95 transition borderBlack dark:bg-white/10 dark:text-white/75"
           href="/CV.pdf"
           download
         >
@@ -98,7 +98,7 @@ export default function Hero() {
         </a>
 
         <a
-          className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition borderBlack"
+          className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition borderBlack dark:bg-white/10 dark:text-white/75"
           href="https://linkedin.com"
           target="_blank"
         >
@@ -106,7 +106,7 @@ export default function Hero() {
         </a>
 
         <a
-          className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition borderBlack"
+          className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition borderBlack dark:bg-white/10 dark:text-white/75"
           href="https://github.com"
           target="_blank"
         >
