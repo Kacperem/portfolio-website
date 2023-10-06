@@ -42,7 +42,7 @@ export default function Hero() {
           </motion.div>
 
           <motion.span
-            className="absolute bottom-8 right-8 text-2xl"
+            className="absolute bottom-8 right-8 text-2xl dark:text-black"
             initial={{ opacity: 0, x: 1000 }}
             animate={{ opacity: 1, x: 1 }}
             transition={{
