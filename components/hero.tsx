@@ -9,8 +9,10 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useTheme } from "@/context/theme-context";
 
 export default function Hero() {
+  const { theme } = useTheme();
   const { ref } = useSectionInView("Home", 0.4);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
@@ -41,17 +43,31 @@ export default function Hero() {
             />
           </motion.div>
 
-          <motion.span
-            className="absolute bottom-8 right-8 text-2xl dark:text-black"
-            initial={{ opacity: 0, x: 1000 }}
-            animate={{ opacity: 1, x: 1 }}
-            transition={{
-              stiffness: 2500,
-              delay: 0.5,
-            }}
-          >
-            🕶
-          </motion.span>
+          {theme === "light" ? (
+            <motion.span
+              className="absolute bottom-8 right-8 text-2xl dark:text-black"
+              initial={{ opacity: 0, x: 1000 }}
+              animate={{ opacity: 1, x: 1 }}
+              transition={{
+                stiffness: 2500,
+                delay: 0.5,
+              }}
+            >
+              🕶
+            </motion.span>
+          ) : (
+            <motion.span
+              className="absolute bottom-9 right-8 text-xl dark:text-black"
+              initial={{ opacity: 0, x: 1000 }}
+              animate={{ opacity: 1, x: 1 }}
+              transition={{
+                stiffness: 2500,
+                delay: 0.5,
+              }}
+            >
+              👀
+            </motion.span>
+          )}
         </div>
       </div>
 
@@ -60,12 +76,9 @@ export default function Hero() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 1 }}
       >
-        Hello, I'm Kacper. I am a{" "}
-        <span className="font-bold">front-end developer </span>
-        with
-        <span className="font-bold"> 1 year of experience in IT.</span> I enjoy
-        coding apps in
-        <span className="font-bold"> React.</span>
+        Welcome on my portfolio website my name is{" "}
+        <span className="font-bold"> Kacper Rembisz </span> <br />I invite you
+        to introduce who I am!
       </motion.h1>
 
       <motion.div
@@ -99,7 +112,7 @@ export default function Hero() {
 
         <a
           className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition borderBlack dark:bg-white/10 dark:text-white/75"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/kacper-rembisz-3166b2162/"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,7 +120,7 @@ export default function Hero() {
 
         <a
           className="bg-white text-gray-500 p-4 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] hover:bg-white-600 hover:text-gray-950 active:scale-95 transition borderBlack dark:bg-white/10 dark:text-white/75"
-          href="https://github.com"
+          href="https://github.com/Kacperem"
           target="_blank"
         >
           <FaGithubSquare />
