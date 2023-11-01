@@ -1,7 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
-import memorypalace from "@/public/memorypalace.png";
+import memory from "@/public/memory.png";
 
 export const links = [
   {
@@ -37,7 +37,7 @@ export const projectsData = [
       "The application is designed to enable the development of the ability to quickly memorize a sequence of numbers.",
     tags: ["React", "Material UI", "Tailwind", "Formik", "Framer Motion"],
     imageUrl:
-      memorypalace,
+      memory,
   },
   {
     title: "Fit App [will be relized]",
