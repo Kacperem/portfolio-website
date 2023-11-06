@@ -13,7 +13,7 @@ import { useTheme } from "@/context/theme-context";
 
 export default function Hero() {
   const { theme } = useTheme();
-  const { ref } = useSectionInView("Home", 0.4);
+  const { ref } = useSectionInView("Home", 0.2);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -103,8 +103,8 @@ export default function Hero() {
 
         <a
           className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:bg-white-600 active:scale-95 transition borderBlack dark:bg-white/10 dark:text-white/75"
-          href="/CV.pdf"
-          download
+          href="https://drive.google.com/file/d/177msDBvI28NWzqAHaNVrVo7MyDWWlsvI/view?usp=sharing"
+          target="_blank"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-x-1 transition" />{" "}
