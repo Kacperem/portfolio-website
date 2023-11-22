@@ -35,12 +35,12 @@ export const projectsData = [
     title: "Memory Palace [during coding]",
     description:
       "The application is designed to enable the development of the ability to quickly memorize a sequence of numbers.",
-    tags: ["React", "Material UI", "Tailwind", "Formik", "Framer Motion"],
+    tags: ["React", "Material UI", "Tailwind", "Formik", "Framer Motion", ".NET Core"],
     imageUrl:
       memory,
   },
   {
-    title: "Fit App [will be relized]",
+    title: "Fit App [will be a relized]",
     description:
       "The app is designed to make your fitness adventure easier in terms of exercise and kcal counting",
     tags: ["React", "Tailwind", "Redux"],
@@ -64,26 +64,26 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: "IT Automation - GSK",
-    location: "[remote work] Poznan, PL",
-    description:
-      "Microsoft SQL Server Management Studio, Microsoft Azure DevOps, Symantec Workflow, Windows Server, ServiceNow, Powershell, Scrum",
+    title: "GSK",
+    location: "Poznan, PL",
+    description_1: "IT Automation",
+    description_2: "Microsoft SQL Server Management Studio, Microsoft Azure DevOps, Symantec Workflow, Windows Server, ServiceNow, Powershell, Scrum",
     icon: React.createElement(CgWorkAlt),
     date: "01.10.2022 - currently",
   },
   {
     title: "University of Science and Technology",
     location: "Wroclaw, PL",
-    description:
-      "Field of study: Computing and Telecommunication Specialization: Design of Information Systems Master of Engineering",
+    description_1: "Field of study: Computing and Telecommunication",
+    description_2: "Specialization: Design of Information Systems Master of Engineering",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
   {
     title: "State University of Applied Sciences",
     location: "Krosno, PL",
-    description:
-      "Field of study: Computing Information Specialization: Internet and database technologies Bachelor of Engineering",
+    description_1: "Field of study: Computing Information",
+    description_2: "Specialization: Internet and database technologies Bachelor of Engineering",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
