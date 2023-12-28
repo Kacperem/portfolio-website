@@ -2,7 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
 import memory from "@/public/memory.png";
-import webflix from "@/public/webflix.png";
+import webflixImage from "@/public/webflixImage.png";
 
 export const links = [
   {
@@ -37,7 +37,7 @@ export const projectsData = [
     description:
       "It is a clone of the popular Netflix site, which features: authentication including OAuth(GitHub, Google) add to favorites and video-player.",
     tags: ["React", "Next.js", "Tailwind", "MongoDb", "Prisma", "SWR", "Zustand"],
-    imageUrl: webflix,
+    imageUrl: webflixImage,
     demoUrl: "https://webflix-one.vercel.app/",
   },
   {
