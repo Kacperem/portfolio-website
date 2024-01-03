@@ -19,15 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I'm an ambitious computer science graduate with a year of experience in IT and passion for achieving goals, which was initiated by my past as a hockey goalkeeper.
+        I'm an ambitious computer science graduate with a year of experience in
+        IT and passion for achieving goals, which was initiated by my past as a
+        ice hockey goalkeeper.
       </p>
       <p className="mb-3">
-      During my studies I developed skills in technology and data analysis, through working on projects, scientific research and gaining practical knowledge. I am ready to use my skills to contribute to technological development and the creation of innovate solutions.
+        During my studies I developed skills in technology and data analysis,
+        through working on projects, scientific research and gaining practical
+        knowledge. I am ready to use my skills to contribute to technological
+        development and the creation of innovate solutions.
       </p>
-      <p className="mb-3">My sports background has taught me the constant pursuit of excellence, team work and self discipline. As a former hockey goalkeeper, I had to make quick decisions and be prepared for unexpected situations, which translates into my ability to handle a dynamic professional environment.</p>
-
-      <p className="mb-3">My passion lies in frontend development - the ability to blend creativity and technical expertise is what truly excites me. My interest in this field was initiated by my brother when I saw how his work positively influenced the user experience of software.</p>
-      
+      <p className="mb-3">
+        My sports background has taught me the constant pursuit of excellence,
+        team work and self discipline. As a former ice hockey goalkeeper, I had
+        to make quick decisions and be prepared for unexpected situations, which
+        translates into my ability to handle a dynamic professional environment.
+      </p>
+      <p className="mb-3">
+        My passion is frontend development mainly react.js - the ability to
+        blend creativity and technical expertise is what truly excites me.
+      </p>
     </motion.section>
   );
 }
