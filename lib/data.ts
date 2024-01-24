@@ -2,7 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
 import webflixImage from "@/public/webflixImage.png";
-import aiCharacterForge from "@/public/aiCharacterForge.png";
+import aiCharacterForgeImage from "@/public/aiCharacterForgeImage.png";
 
 export const links = [
   {
@@ -57,7 +57,7 @@ export const projectsData = [
       "Zustand"
 
     ],
-    imageUrl: aiCharacterForge,
+    imageUrl: aiCharacterForgeImage,
     demoUrl: "https://ai-character-forge.vercel.app/",
   },
 ] as const;
