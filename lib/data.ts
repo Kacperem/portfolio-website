@@ -1,8 +1,8 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
-import memory from "@/public/memory.png";
 import webflixImage from "@/public/webflixImage.png";
+import aiCharacterForge from "@/public/aiCharacterForge.png";
 
 export const links = [
   {
@@ -41,32 +41,41 @@ export const projectsData = [
     demoUrl: "https://webflix-one.vercel.app/",
   },
   {
-    title: "Memory Palace [during coding]",
+    title: "ai-character-forge",
     description:
-      "The application is designed to enable the development of the ability to quickly memorize a sequence of numbers.",
+      "SaaS application that allows you to create characters and chat with them.",
     tags: [
       "React",
+      "NEXT.JS",
+      "Clerk",
+      "Stripe",
+      "OpenAI",
       "Tailwind",
-      "Formik",
-      "Framer Motion",
-      ".NET Core",
+      "shadcn",
+      "Prisma",
+      "axios",
+      "Zustand"
+
     ],
-    imageUrl: memory,
-    demoUrl: "",
+    imageUrl: aiCharacterForge,
+    demoUrl: "https://ai-character-forge.vercel.app/",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML/CSS",
   "JavaScript",
   "TypeScript",
+  "Angular",
   "React",
-  "Redux",
   "Next.js",
+  "Zustand",
   "Tailwind",
+  "Mui",
+  "Bootstrap",
   "Framer Motion",
   "Git",
+  "SQL"
 ] as const;
 
 export const experiencesData = [

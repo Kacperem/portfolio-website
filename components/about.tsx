@@ -36,8 +36,9 @@ export default function About() {
         translates into my ability to handle a dynamic professional environment.
       </p>
       <p className="mb-3">
-        My passion is frontend development mainly react.js - the ability to
-        blend creativity and technical expertise is what truly excites me.
+      My passion is front-end development, where I pay attention to the fact that 
+      it is not worth locking into a specific framework, but to adapt the technology 
+      to the requirements of the project, so I am open to all solutions (angular, react, vue and others).
       </p>
     </motion.section>
   );
